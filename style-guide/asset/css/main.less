@@ -1,0 +1,306 @@
+@colorSwieBlue:#00a8ff;
+@colorWhite:#fff;
+@colorRiverBed:#343940;
+@colorGray:#676767;
+@colorLightGray:#ccc;
+
+/*
+@font-face {
+    font-family: "OpenSansBold";
+    src: url("open-sans-bold.eot");
+    src: url("../fonts/open-sans-bold/open-sans-bold-webfont.eot?#iefix") format("eot?#iefix"), url("../fonts/open-sans-bold/open-sans-bold-webfont.woff") format("woff"), url("../fonts/open-sans-bold/open-sans-bold-webfont.woff2") format("woff2"), url("../fonts/open-sans-bold/open-sans-bold-webfont.ttf") format("truetype"); }
+  
+  @font-face {
+    font-family: "OpenSansBoldItalic";
+    src: url("open-sans-bold-italic.eot");
+    src: url("../fonts/open-sans-bold-italic/open-sans-bold-italic-webfont.eot?#iefix") format("eot?#iefix"), url("../fonts/open-sans-bold-italic/open-sans-bold-italic-webfont.woff") format("woff"), url("../fonts/open-sans-bold-italic/open-sans-bold-italic-webfont.woff2") format("woff2"), url("../fonts/open-sans-bold-italic/open-sans-bold-italic-webfont.ttf") format("truetype"); }
+  
+  @font-face {
+    font-family: "OpenSansExtraBold";
+    src: url("open-sans-extra-bold.eot");
+    src: url("../fonts/open-sans-extra-bold/open-sans-extra-bold-webfont.eot?#iefix") format("eot?#iefix"), url("../fonts/open-sans-extra-bold/open-sans-extra-bold-webfont.woff") format("woff"), url("../fonts/open-sans-extra-bold/open-sans-extra-bold-webfont.woff2") format("woff2"), url("../fonts/open-sans-extra-bold/open-sans-extra-bold-webfont.ttf") format("truetype"); }
+  
+  @font-face {
+    font-family: "OpenSansExtraBoldItalic";
+    src: url("open-sans-extra-bold-italic.eot");
+    src: url("../fonts/open-sans-extra-bold-italic/open-sans-extra-bold-italic-webfont.eot?#iefix") format("eot?#iefix"), url("../fonts/open-sans-extra-bold-italic/open-sans-extra-bold-italic-webfont.woff") format("woff"), url("../fonts/open-sans-extra-bold-italic/open-sans-extra-bold-italic-webfont.woff2") format("woff2"), url("../fonts/open-sans-extra-bold-italic/open-sans-extra-bold-italic-webfont.ttf") format("truetype"); }
+  
+  @font-face {
+    font-family: "OpenSansItalic";
+    src: url("open-sans-italic.eot");
+    src: url("../fonts/open-sans-italic/open-sans-italic-webfont.eot?#iefix") format("eot?#iefix"), url("../fonts/open-sans-italic/open-sans-italic-webfont.woff") format("woff"), url("../fonts/open-sans-italic/open-sans-italic-webfont.woff2") format("woff2"), url("../fonts/open-sans-italic/open-sans-italic-webfont.ttf") format("truetype"); }
+  
+  @font-face {
+    font-family: "OpenSansLight";
+    src: url("open-sans-light.eot");
+    src: url("../fonts/open-sans-light/open-sans-light-webfont.eot?#iefix") format("eot?#iefix"), url("../fonts/open-sans-light/open-sans-light-webfont.woff") format("woff"), url("../fonts/open-sans-light/open-sans-light-webfont.woff2") format("woff2"), url("../fonts/open-sans-light/open-sans-light-webfont.ttf") format("truetype"); }
+  
+  @font-face {
+    font-family: "OpenSansLightItalic";
+    src: url("open-sans-light-italic.eot");
+    src: url("../fonts/open-sans-light-italic/open-sans-light-italic-webfont.eot?#iefix") format("eot?#iefix"), url("../fonts/open-sans-light-italic/open-sans-light-italic-webfont.woff") format("woff"), url("../fonts/open-sans-light-italic/open-sans-light-italic-webfont.woff2") format("woff2"), url("../fonts/open-sans-light-italic/open-sans-light-italic-webfont.ttf") format("truetype"); }
+  
+  @font-face {
+    font-family: "OpenSansRegular";
+    src: url("open-sans-regular.eot");
+    src: url("../fonts/open-sans-regular/open-sans-regular-webfont.eot?#iefix") format("eot?#iefix"), url("../fonts/open-sans-regular/open-sans-regular-webfont.woff") format("woff"), url("../fonts/open-sans-regular/open-sans-regular-webfont.woff2") format("woff2"), url("../fonts/open-sans-regular/open-sans-regular-webfont.ttf") format("truetype"); }
+  
+  @font-face {
+    font-family: "OpenSansSemiBold";
+    src: url("open-sans-semi-bold.eot");
+    src: url("../fonts/open-sans-semi-bold/open-sans-semi-bold-webfont.eot?#iefix") format("eot?#iefix"), url("../fonts/open-sans-semi-bold/open-sans-semi-bold-webfont.woff") format("woff"), url("../fonts/open-sans-semi-bold/open-sans-semi-bold-webfont.woff2") format("woff2"), url("../fonts/open-sans-semi-bold/open-sans-semi-bold-webfont.ttf") format("truetype"); }
+  
+  @font-face {
+    font-family: "OpenSansSemiBoldItalic";
+    src: url("open-sans-semi-bold-italic.eot");
+    src: url("../fonts/open-sans-semi-bold-italic/open-sans-semi-bold-italic-webfont.eot?#iefix") format("eot?#iefix"), url("../fonts/open-sans-semi-bold-italic/open-sans-semi-bold-italic-webfont.woff") format("woff"), url("../fonts/open-sans-semi-bold-italic/open-sans-semi-bold-italic-webfont.woff2") format("woff2"), url("../fonts/open-sans-semi-bold-italic/open-sans-semi-bold-italic-webfont.ttf") format("truetype"); }
+  
+  @font-face {
+    font-family: "OpenSansCondBold";
+    src: url("open-sans-cond-bold.eot");
+    src: url("../fonts/open-sans-cond-bold/open-sans-cond-bold-webfont.eot?#iefix") format("eot?#iefix"), url("../fonts/open-sans-cond-bold/open-sans-cond-bold-webfont.woff") format("woff"), url("../fonts/open-sans-cond-bold/open-sans-cond-bold-webfont.woff2") format("woff2"), url("../fonts/open-sans-cond-bold/open-sans-cond-bold-webfont.ttf") format("truetype"); }
+  
+  @font-face {
+    font-family: "UbuntuLight";
+    src: url("ubuntu-light.eot");
+    src: url("../fonts/ubuntu-light/ubuntu-light-webfont.eot?#iefix") format("eot?#iefix"), url("../fonts/ubuntu-light/ubuntu-light-webfont.woff") format("woff"), url("../fonts/ubuntu-light/ubuntu-light-webfont.woff2") format("woff2"), url("../fonts/ubuntu-light/ubuntu-light-webfont.ttf") format("truetype"); }
+  
+  @font-face {
+    font-family: "UbuntuRegular";
+    src: url("ubuntu-regular.eot");
+    src: url("../fonts/ubuntu-regular/ubuntu-regular-webfont.eot?#iefix") format("eot?#iefix"), url("../fonts/ubuntu-regular/ubuntu-regular-webfont.woff") format("woff"), url("../fonts/ubuntu-regular/ubuntu-regular-webfont.woff2") format("woff2"), url("../fonts/ubuntu-regular/ubuntu-regular-webfont.ttf") format("truetype"); }
+  
+  @font-face {
+    font-family: "UbuntuBold";
+    src: url("ubuntu-bold.eot");
+    src: url("../fonts/ubuntu-bold/ubuntu-bold-webfont.eot?#iefix") format("eot?#iefix"), url("../fonts/ubuntu-bold/ubuntu-bold-webfont.woff") format("woff"), url("../fonts/ubuntu-bold/ubuntu-bold-webfont.woff2") format("woff2"), url("../fonts/ubuntu-bold/ubuntu-bold-webfont.ttf") format("truetype"); }
+  */
+.layout-sidebar-container {
+    header, main, footer {
+        padding-left: 300px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+.layout-sidebar-container{
+    header, main, footer {
+        padding-left: 0;
+    }}
+}
+
+@media only screen and (min-width: 601px){
+main>.container, body>.page-footer>.container, .top-nav>.container, #index-banner>.container, .github-commit>.container {
+    width: 100%;
+}}
+
+#logo-container {
+    margin: 35px auto;width:110px;height:110px;padding:0;
+    &:hover {
+        background:none;
+    }
+}
+
+
+.header {
+    color: @colorSwieBlue;
+    font-weight: 300;
+    margin-bottom: 0;    margin-top: .8rem;
+}
+
+h4.light {
+    margin-bottom: 40px;
+    line-height: 44px;
+    color: rgba(0,0,0,0.7);
+}
+
+
+.body-home {
+    .header, h4.light {
+        color:@colorWhite;
+    }
+    .header {
+        font-weight:bold;
+    }
+    h1 {
+        font-size: 3.2rem;font-weight: bold;
+    }
+}
+
+
+.div-svg-logo {
+    width:50%;margin:0 auto;
+}
+
+.home-header {
+    background:/* @colorSwieBlue*/ url(../images/home-header-bg.png) no-repeat;
+    background-size:cover;
+    padding: 80px;
+    margin-bottom: 60px;
+}
+
+.sidenav .collapsible-body li a, .sidenav.fixed .collapsible-body li a {
+    padding: 0 37.5px 0 45px;
+    font-weight: normal;
+}
+
+.sidenav li {
+    line-height: 38px;
+}
+
+ul.sidenav:not(.browser-default) > li {
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.sidenav .collapsible-body>ul:not(.collapsible)>li.active, .sidenav.sidenav-fixed .collapsible-body>ul:not(.collapsible)>li.active {
+    background-color:@colorSwieBlue;
+}
+
+.sidenav .text {
+    padding-left:20px;
+}
+
+.search-wrapper {
+    border-top:rgba(0, 0, 0, 0.14) 1px solid;
+}
+
+.sidenav li > a {
+    height: 36px;
+    line-height: 36px;
+}
+.sidenav li {
+    line-height: 36px;
+}
+
+#logo-container {
+    height:90px;width:90px;
+}
+
+.table-of-contents a:hover,
+.table-of-contents a.active {
+    border-color:@colorSwieBlue;
+}
+
+.sidenav li > a {
+    font-weight:normal;
+}
+
+.sidenav .text {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+h4.light {
+    margin-bottom:0;
+}
+
+.transparent-bg {
+    background:url(../images/transparent-bg.png)
+}
+.white-front-bg {
+    background:url(../images/white-front-bg.png)
+}
+
+.download-combo {
+    margin:20px 0;text-align:center;font-size:12px;display:block;
+    .btn-floating.pulse {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        i.fa {
+            font-size: 1.2rem;
+            line-height: 30px;
+        }
+    }
+}
+
+.flex-end-images {
+    display:flex;align-items:flex-end;flex-wrap:wrap;
+    & > .col {
+        margin: 30px 0;
+    } 
+}
+
+.clear {clear:both;display:block;}
+/*
+.col > .download-combo {
+    opacity:0;
+}
+.col:hover > .download-combo {
+    opacity:1.0;
+}*/
+
+.colors-item {
+    /*display:flex;align-items:flex-end;flex-wrap:wrap;*/
+    & > li {
+        text-align:center;font-size:14px;margin:20px 0;
+        .ci-color-value {
+            width:90px;height:90px;border-radius:90px;background:@colorSwieBlue;margin:0 auto;
+        }
+        .ci-name {
+            color:@colorRiverBed;margin:10px 0;
+        }
+        .ci-desc {
+            color:@colorGray;
+        }
+    }
+}
+
+.fonts-list {
+    display:flex;align-items:flex-end;flex-wrap:wrap;
+    word-wrap: break-word;
+    word-break: break-all;
+    li {
+        .fl-big {
+            font-size: 6rem;
+            font-weight: normal;
+        }
+        .fl-small {
+            border-bottom: #ccc 1px solid;
+            padding: 0 0 10px 0;
+            margin-bottom: 10px;
+            font-weight: normal;
+        }
+        .fl-desc {
+
+        }
+    }
+}
+
+code {
+    font-size:12px;font-family:'sans-serif';
+}
+
+blockquote {
+    p:first-of-type {
+        margin-top:0;
+    }
+    code {
+        background: #fefefe;
+        border: 1px solid #ccc;
+        padding: 10px;
+        display: block;
+    }
+}
+
+.styles-list {
+    .sl-meta {
+        margin-bottom:10px;
+        dl {
+            margin:0;
+            dt {
+                font-size:18px;font-weight:bold;
+            }
+            dd {
+                margin:0;
+            }
+        }
+    }
+    .sl-preview {
+        margin-bottom:10px;
+        border:1px solid #ccc;padding:10px;height:160px;
+    }
+}
+
+
+

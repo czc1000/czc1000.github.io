@@ -1,8 +1,9 @@
 $(document).ready(function(){
-    $('.sidenav').sidenav();
+    $('#nav-mobile').sidenav();
     $('.scrollspy').scrollSpy();
-    $('.toc-wrapper').pushpin();
-    $('#slide-out li a').click(function(i){
+    $('.toc-wrapper').pushpin({top:122});
+    /*
+    $('#nav-mobile li a').click(function(i){
         var $this = $(this);
         $('#slide-out li').removeClass('active');
         var $collapsibleBody = $this.parent().find('.collapsible-body');
@@ -22,5 +23,5 @@ $(document).ready(function(){
         }else{
             $collapsibleBody.hide();
         }
-    })
+    })*/
 });
